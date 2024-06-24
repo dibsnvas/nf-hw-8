@@ -1,12 +1,11 @@
 import { Router } from 'express';
 import { roadmapRouter } from './roadmap/roadmap.router';
-// other routers can be imported here
+import userPromptRouter from './roadmap/userprompt.route';
 
 const globalRouter = Router();
 
-// Use the userRouter for user-related routes
-globalRouter.use(roadmapRouter);
 
-// other routers can be added here
+globalRouter.use(roadmapRouter);
+globalRouter.use(userPromptRouter);
 
 export default globalRouter;

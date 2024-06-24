@@ -1,5 +1,3 @@
-// components/RoadmapItem.tsx
-
 import React from 'react';
 
 type RoadmapProps = {

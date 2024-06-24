@@ -2,6 +2,7 @@ import { Router } from 'express';
 import { Server, WebSocket } from 'ws';
 import RoadmapService from './roadmap.service';
 import RoadmapController from './roadmap.controller';
+import UserPrompt from './userprompt.model';
 
 const roadmapRouter = Router();
 
